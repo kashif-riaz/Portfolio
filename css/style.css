@@ -1,0 +1,320 @@
+/* Font Typography */
+.fs-18 {
+  font-size: 1.8rem;
+}
+
+.fs-20 {
+  font-size: 2rem;
+}
+
+.fs-30 {
+  font-size: 3rem;
+}
+.fs-40 {
+  font-size: 4rem;
+}
+
+.fs-48 {
+  font-size: 4.8rem;
+}
+
+.fs-56 {
+  font-size: 5.6rem;
+  line-height: 119%;
+}
+/* font */
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+/* color typography  */
+.e-red-color {
+  color: #ee414d;
+}
+
+/* weight typography  */
+
+.fw-500 {
+  font-weight: 500;
+}
+.fw-300 {
+  font-weight: 300;
+}
+/* illustrator typography  */
+.illustrator-btn {
+  border-radius: 24px;
+  border: 1px #000;
+  padding: 8px 25px 8px 24px;
+  box-shadow: 2px 2px 4px 0px #000;
+  background-color: white;
+}
+/* Header start  */
+
+.header-parent {
+  padding-top: 3rem;
+}
+
+.nav-list-gap {
+  gap: 4rem;
+}
+
+.menu-mobile {
+  width: 4rem;
+  height: 4rem;
+}
+
+.btn:focus,
+.btn-close:focus {
+  box-shadow: none;
+}
+
+/* Hero section start  */
+
+.hero-parent {
+  padding-block: 7rem 10rem;
+}
+.mx-567 {
+  max-width: 687px;
+}
+
+/* Card  */
+.projects-card {
+  margin-inline: 4rem;
+  margin-block: 6rem;
+  border-radius: 12px;
+  background: #ee414d;
+
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.card-paragraph-padding {
+  padding-block: 2.5rem;
+  max-width: 400px;
+  line-height: 150%;
+}
+.project-card-child-one {
+  padding: 3rem 5.4rem 3rem 5.4rem;
+}
+.project-card-child-two {
+  height: 265px;
+}
+.project-image {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.project-image-reverse {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.another-card {
+  background-color: #f1f5f9;
+}
+
+/* skills */
+.skill-mar-top-80 {
+  margin-top: 14rem;
+}
+.circle-outer {
+  width: 950px;
+  height: 950px;
+  border: 1.5px solid;
+  border-radius: 50%;
+  position: relative;
+}
+.circle-inner {
+  width: 770px;
+  height: 770px;
+  border: 1.5px solid;
+  border-radius: 50%;
+}
+.skill-heading {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 46px;
+  letter-spacing: 11.2px;
+  color: #ee414d;
+}
+.illustrator-ai {
+  position: absolute;
+  top: -16px;
+  left: 45%;
+}
+.css {
+  position: absolute;
+  top: 16px;
+  left: 67%;
+}
+.figma {
+  position: absolute;
+  top: 38%;
+  right: -4%;
+  transform: translateY(-50%);
+}
+.sass {
+  position: absolute;
+  top: 68%;
+  right: 0%;
+  transform: translateY(-50%);
+}
+.bootstrap {
+  position: absolute;
+  bottom: -7%;
+  right: 18%;
+  transform: translateY(-50%);
+}
+
+.adobe-photoshop {
+  position: absolute;
+  bottom: -7%;
+  left: 30%;
+  transform: translateY(-50%);
+}
+
+.tailwind {
+  position: absolute;
+  bottom: 6%;
+  left: 6%;
+  transform: translateY(-50%);
+}
+
+.github {
+  position: absolute;
+  bottom: 27%;
+  left: -4%;
+  transform: translateY(-50%);
+}
+
+.html {
+  position: absolute;
+  top: 25%;
+  left: -3%;
+}
+
+.git {
+  position: absolute;
+  top: 4%;
+  left: 12%;
+}
+.footer {
+  background-color: #ee414d;
+  padding-block: 5.1rem;
+  margin-top: 14rem;
+}
+.footer-gap {
+  gap: 4rem;
+}
+.mar-top-copyright {
+  margin-top: 3.1rem;
+  letter-spacing: 1px;
+}
+.footer-links-image{
+    width: 40px;
+
+}
+
+/* Media Query For reaponsive  */
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-inline: 2rem;
+  }
+  /* header  */
+
+  .btn-close {
+    background-size: contain;
+  }
+
+  .offcanvas-body-gap {
+    gap: 2.5rem;
+  }
+
+  /* hero section  */
+
+  .hero-parent {
+    padding-inline: 3rem 4rem;
+    gap: 2rem;
+    text-align: center;
+  }
+  .mx-567 {
+    max-width: 100%;
+  }
+
+  .hero-child-one .fs-24 {
+    font-size: 2.4rem !important;
+    line-height: 126%;
+  }
+
+  .hero-child-one .fs-36 {
+    font-size: 2.6rem;
+  }
+
+  /* card  */
+  .projects-card {
+    margin-block: 3rem;
+    margin-inline: 0px;
+  }
+  .project-card-child-one {
+    padding: 1.8rem 3rem;
+    width: 100% !important;
+  }
+  .card-paragraph-padding {
+    padding-block: 1.6rem;
+  }
+  .project-card-child-two {
+    width: 100% !important;
+  }
+
+  .project-image {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  /* skills */
+  .skill-mar-top-80 {
+    margin-top: 8rem;
+  }
+  .circle-outer {
+    width: 330px;
+    height: 330px;
+    position: relative;
+  }
+  .circle-inner {
+    width: 80%;
+    height: 80%;
+  }
+  .skill-heading {
+    font-size: 30px;
+  }
+  .circle-inner > img {
+    width: 60px;
+  }
+  .git {
+    position: absolute;
+    top: 0%;
+    left: 16%;
+    width: 70px !important;
+  }
+  .adobe-photoshop {
+    position: absolute;
+    bottom: -10%;
+    left: 30%;
+    transform: translateY(-50%);
+  }
+  /* footer  */
+  .footer {
+    padding-block: 3rem;
+    margin-top: 8rem;
+}
+.footer-gap {
+    gap: 2rem;
+}
+}

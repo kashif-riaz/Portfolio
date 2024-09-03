@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Tittle -->
+
+    <link rel="icon" type="image/x-icon" href="./Images/Logo.png" />
+    <title>Kashif Riaz</title>
+
+    <!-- Font-Awesome  -->
+
+    <!-- <script
+      src="https://kit.fontawesome.com/767ec3b54e.js"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <!-- Style Sheet  -->
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div
+          class="header-parent d-flex justify-content-between align-items-center"
+        >
+          <div class="header-child-one">
+            <img
+              class="img-fluid header-logo-mob"
+              src="./images/Logo.png"
+              alt="Hydra Logo"
+            />
+          </div>
+          <div class="header-child-two d-none d-lg-flex align-items-center">
+            <ul
+              class="d-flex justify-content-center align-items-center nav-list-gap"
+            >
+              <li><a href="#about" class="text-dark fs-20">About</a></li>
+              <li><a href="#projects" class="text-dark fs-20">Projects</a></li>
+              <li>
+                <a href="#skills" class="text-dark fs-20">Skills</a>
+              </li>
+              <li><a href="#contact" class="text-dark fs-20">Contact</a></li>
+            </ul>
+          </div>
+          <div class="header-child-third d-lg-none">
+            <button
+              class="btn btn-primar"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+            >
+              <img
+                class="img-fluid menu-mobile"
+                src="./images/menu-mobile.png"
+                alt="Hamber Button"
+              />
+            </button>
+
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-header">
+                <div>
+                  <img class="img-fluid" src="./Images/Logo.png" alt="" />
+                </div>
+                <div
+                  class="offcanvas-title text-dark"
+                  id="offcanvasExampleLabel"
+                >
+                  <img class="img-fuild" src="./images/x-logo.svg" alt="" />
+                </div>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body text-dark fs-12">
+                <div class="header-child">
+                  <ul
+                    class="d-flex flex-column justify-content-center align-items-center offcanvas-body-gap fw-bold"
+                  >
+                    <li class="cursor-pointer">About</li>
+                    <li class="cursor-pointer">Projects</li>
+                    <li class="cursor-pointer">Skills</li>
+                    <li class="cursor-pointer">Contact</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <main>
+      <section id="about">
+        <div class="container">
+          <div
+            class="hero-parent d-flex flex-column flex-lg-row justify-content-between align-items-center"
+          >
+            <div class="hero-child-one">
+              <h2 class="fs-30 fs-24">
+                Hello! I Am
+                <span class="e-red-color fs-56 fs-36">Kashif Riaz</span>
+              </h2>
+              <h1 class="fs-56 fs-24 mx-567">
+                Let’s Collaborate on Your Next UI Project Reach Out to Start the
+                Journey...
+              </h1>
+            </div>
+            <div class="hero-child-two">
+              <img
+                class="img-fluid"
+                src="./Images/Kashif.png"
+                alt="My Self Picture"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2 class="fs-48 text-center" id="projects">Projects</h2>
+          <div
+            class="projects-card d-flex flex-column flex-lg-row justify-content-center align-items-center"
+          >
+            <div class="project-card-child-one text-light w-50">
+              <h2 class="fs-40">Hydra</h2>
+              <p class="fs-18 card-paragraph-padding fw-300">
+                I created this personal project in order to show how to create
+                an interface in Figma using a portfolio as an example.
+              </p>
+              <a href="./Hydra/index.html " target="_blank">
+                <button class="illustrator-btn fs-18 roboto">
+                  Veiw Projects
+                </button></a
+              >
+            </div>
+            <div class="project-card-child-two w-50">
+              <img
+                class="img-fluid project-image d-none d-lg-flex"
+                src="./Images/hydra.png"
+                alt="Project Image"
+              />
+              <img
+                class="img-fluid project-image d-lg-none"
+                src="./Images/hydra-mobile.png"
+                alt="Project Image"
+              />
+            </div>
+          </div>
+          <div
+            class="projects-card another-card d-flex flex-column flex-lg-row-reverse justify-content-center align-items-center"
+          >
+            <div class="project-card-child-one text-dark w-50">
+              <h2 class="fs-40">Traveling</h2>
+              <p class="fs-18 card-paragraph-padding fw-300">
+                I created this personal project in order to show how to create
+                an interface in Figma using a portfolio as an example.
+              </p>
+              <a href="./Jadoo website/index.html" target="_blank">
+                <button class="illustrator-btn fs-18 roboto">
+                  Veiw Projects
+                </button>
+              </a>
+            </div>
+            <div class="project-card-child-two w-50">
+              <img
+                class="img-fluid project-image-reverse d-none d-lg-flex"
+                src="./Images/travel.png"
+                alt="Project Image"
+              />
+              <img
+                class="img-fluid project-image d-lg-none"
+                src="./Images/travel-mobile.png"
+                alt="Project Image"
+              />
+            </div>
+          </div>
+          <div
+            class="projects-card d-flex flex-column flex-lg-row justify-content-center align-items-center"
+          >
+            <div class="project-card-child-one text-light w-50">
+              <h2 class="fs-40">Position</h2>
+              <p class="fs-18 card-paragraph-padding fw-300">
+                I created this personal project in order to show how to create
+                an interface in Figma using a portfolio as an example.
+              </p>
+              <a href="./position website/index.html" target="_blank">
+                <button class="illustrator-btn fs-18 roboto">
+                  Veiw Projects
+                </button>
+              </a>
+            </div>
+            <div class="project-card-child-two w-50">
+              <img
+                class="img-fluid project-image d-none d-lg-flex"
+                src="./Images/position.png"
+                alt="Project Image"
+              />
+              <img
+                class="img-fluid project-image d-lg-none"
+                src="./Images/position-mobile.png"
+                alt="Project Image"
+              />
+            </div>
+          </div>
+          <div
+            class="projects-card another-card d-flex flex-column flex-lg-row-reverse justify-content-center align-items-center"
+          >
+            <div class="project-card-child-one text-dark w-50">
+              <h2 class="fs-40">Fylo</h2>
+              <p class="fs-18 card-paragraph-padding fw-300">
+                I created this personal project in order to show how to create
+                an interface in Figma using a portfolio as an example.
+              </p>
+              <a href="./FYLO landing page/index.html" target="_blank">
+                <button class="illustrator-btn fs-18 roboto">
+                  Veiw Projects
+                </button>
+              </a>
+            </div>
+            <div class="project-card-child-two w-50">
+              <img
+                class="img-fluid project-image-reverse d-none d-lg-flex"
+                src="./Images/fylo.png"
+                alt="Project Image"
+              />
+              <img
+                class="img-fluid project-image d-lg-none"
+                src="./Images/fylo-mobile.png"
+                alt="Project Image"
+              />
+            </div>
+          </div>
+          <div
+            class="projects-card d-flex flex-column flex-lg-row justify-content-center align-items-center"
+          >
+            <div class="project-card-child-one text-light w-50">
+              <h2 class="fs-40">Clipboard</h2>
+              <p class="fs-18 card-paragraph-padding fw-300">
+                I created this personal project in order to show how to create
+                an interface in Figma using a portfolio as an example.
+              </p>
+              <a
+                href="./clipboard-landing-page-master/index.html"
+                target="_blank"
+              >
+                <button class="illustrator-btn fs-18 roboto">
+                  Veiw Projects
+                </button>
+              </a>
+            </div>
+            <div class="project-card-child-two w-50">
+              <img
+                class="img-fluid project-image d-none d-lg-flex"
+                src="./Images/clipboard.png"
+                alt="Project Image"
+              />
+              <img
+                class="img-fluid project-image d-lg-none"
+                src="./Images/clipboard-mobile.png"
+                alt="Project Image"
+              />
+            </div>
+          </div>
+          <div
+            class="projects-card another-card d-flex flex-column flex-lg-row-reverse justify-content-center align-items-center"
+          >
+            <div class="project-card-child-one text-dark w-50">
+              <h2 class="fs-40">Huddle</h2>
+              <p class="fs-18 card-paragraph-padding fw-300">
+                I created this personal project in order to show how to create
+                an interface in Figma using a portfolio as an example.
+              </p>
+              <a
+                href="./Hundle website with bootstrap/index.html "
+                target="_blank"
+              >
+                <button class="illustrator-btn fs-18 roboto">
+                  Veiw Projects
+                </button>
+              </a>
+            </div>
+            <div class="project-card-child-two w-50">
+              <img
+                class="img-fluid project-image-reverse d-none d-lg-flex"
+                src="./Images/huddle.png"
+                alt="Project Image"
+              />
+              <img
+                class="img-fluid project-image d-lg-none"
+                src="./Images/huddle-mobile.png"
+                alt="Project Image"
+              />
+            </div>
+          </div>
+          <div
+            class="projects-card d-flex flex-column flex-lg-row justify-content-center align-items-center"
+          >
+            <div class="project-card-child-one text-light w-50">
+              <h2 class="fs-40 d-block">Community</h2>
+              <p class="fs-18 card-paragraph-padding fw-300">
+                I created this personal project in order to show how to create
+                an interface in Figma using a portfolio as an example.
+              </p>
+              <a href="./hundle/index.html" target="_blank">
+                <button class="illustrator-btn fs-18 roboto">
+                  Veiw Projects
+                </button>
+              </a>
+            </div>
+            <div class="project-card-child-two w-50">
+              <img
+                class="img-fluid project-image d-none d-lg-flex"
+                src="./Images/Group 1959 (5).png"
+                alt="Project Image"
+              />
+              <img
+                class="img-fluid project-image d-lg-none"
+                src="./Images/huddle-community-mobile.png"
+                alt="Project Image"
+              />
+            </div>
+          </div>
+          <div
+            class="projects-card another-card d-flex flex-column flex-lg-row-reverse justify-content-center align-items-center"
+          >
+            <div class="project-card-child-one text-dark w-50">
+              <h2 class="fs-40">Imperialgoc</h2>
+              <p class="fs-18 card-paragraph-padding fw-300">
+                I created this personal project in order to show how to create
+                an interface in Figma using a portfolio as an example.
+              </p>
+              <a href="./Imperal Design/index.html" target="_blank">
+                <button class="illustrator-btn fs-18 roboto">
+                  Veiw Projects
+                </button>
+              </a>
+            </div>
+            <div class="project-card-child-two w-50">
+              <img
+                class="img-fluid project-image-reverse d-none d-lg-flex"
+                src="./Images/imperial.png"
+                alt="Project Image"
+              />
+              <img
+                class="img-fluid project-image d-lg-none"
+                src="./Images/imperial-mobile.png"
+                alt="Project Image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="container">
+          <div
+            class="d-flex justify-content-center align-items-center skill-mar-top-80"
+          >
+            <div
+              class="circle-outer d-flex justify-content-center align-items-center"
+            >
+              <div class="circle-inner">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h3 class="skill-heading fw-500 text-uppercase">Skills</h3>
+                </div>
+                <img
+                  class="skills-image illustrator-ai"
+                  src="./Images/illustrator.png"
+                  alt="Skill Images"
+                />
+                <img
+                  class="skills-image css"
+                  src="./Images/css.png"
+                  alt="Skill Images "
+                />
+                <img
+                  class="skills-image figma"
+                  src="./Images/figma.png"
+                  alt="Skill Images "
+                />
+                <img
+                  class="skills-image sass"
+                  src="./Images/sass.png"
+                  alt="Skill Images"
+                />
+                <img
+                  class="skills-image bootstrap"
+                  src="./Images/bootstrap.png"
+                  alt="Skill Images"
+                />
+                <img
+                  class="skills-image adobe-photoshop"
+                  src="./Images/adobe-photoshop.png"
+                  alt="Skill Images"
+                /><img
+                  class="skills-image tailwind"
+                  src="./Images/tailwind.png"
+                  alt="Skill Images"
+                />
+                <img
+                  class="skills-image github"
+                  src="./Images/github.png"
+                  alt="Skill Images"
+                />
+                <img
+                  class="skills-image html"
+                  src="./Images/html.png"
+                  alt="Skill Images"
+                />
+                <img
+                  class="skills-image git"
+                  src="./Images/git.png"
+                  alt="Skill Images"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <div class="footer">
+        <div
+          class="d-flex justify-content-center align-items-center footer-gap"
+        >
+          <a href="mailto:kashif.riaz7272@gmail.com" target="_blank">
+            <img
+              class="cursor-pointer footer-links-image"
+              src="./Images/mail.png"
+              alt="Soical Icon"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kashif-riaz-dev"
+            target="_blank"
+          >
+            <img
+              class="cursor-pointer footer-links-image"
+              src="./Images/linkedin.png"
+              alt="Soical Icon"
+            />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=923172714848"
+            target="_blank"
+          >
+            <img
+              class="cursor-pointer footer-links-image"
+              src="./Images/whatsapp.png"
+              alt="Soical Icon"
+            />
+          </a>
+        </div>
+        <div>
+          <p
+            class="text-light fs-18 text-center mar-top-copyright fw-300 roboto"
+          >
+            Copyright ©2020 All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>

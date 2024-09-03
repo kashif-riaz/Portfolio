@@ -1,0 +1,662 @@
+/* Typograpy  */
+
+.fs-12 {
+  font-size: 1.2rem;
+}
+
+.fs-14 {
+  font-size: 1.4rem;
+}
+
+.fs-16 {
+  font-size: 1.6rem;
+}
+
+.fs-24 {
+  font-size: 2.4rem;
+}
+
+.fs-26 {
+  font-size: 2.6rem;
+}
+
+.fs-36 {
+  font-size: 3.6rem;
+}
+
+.fs-46 {
+  font-size: 4.6rem;
+}
+
+.fs-64 {
+  font-size: 6.4rem;
+}
+
+/* Button  */
+
+.illustrator-small-btn {
+  border: none;
+  color: #343045;
+  padding: 1.6rem 3.9rem;
+  border-radius: 4rem;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+
+.illustrator-medium-btn {
+  border: none;
+  color: #343045;
+  padding: 1.7rem 4.3rem;
+  border-radius: 4rem;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+.illustrator-large-btn {
+  border: none;
+  color: #343045;
+  padding: 1.7rem 5.5rem;
+  border-radius: 4rem;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+
+/* Utility Class  */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.lh-normal {
+  line-height: normal;
+}
+.lh-spacing {
+  line-height: 2;
+}
+.position-relative {
+  position: relative;
+}
+
+/* Container  */
+
+/* .container {
+  margin-inline: 8.4rem;
+} */
+.fw-300 {
+  font-weight: 300;
+}
+
+/* Header  */
+.header-parent {
+  padding-top: 2rem;
+}
+
+.header-gap {
+  gap: 4.1rem;
+}
+.header-child-two {
+  padding-block: 4.4rem;
+}
+.header-child-three {
+  padding-block: 2.9rem 2.6rem;
+}
+
+.header-customize-btn {
+  background-color: #302c42;
+  border: 1px solid white;
+  padding: 1.6rem 3.9rem;
+  border-radius: 4rem;
+  color: white;
+}
+.header-child-three {
+  gap: 3.8rem;
+}
+.offcacebody-btn-gap {
+  gap: 0.8rem;
+}
+.offcanvas-header,
+.offcanvas-body {
+  padding: 2rem 2rem;
+}
+.btn-close {
+  width: 4em;
+  height: 6em;
+  background: transparent
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e")
+    center / 2rem auto no-repeat;
+}
+
+/* hero section  */
+.hero-section-parent {
+  padding-block: 13.5rem 8.8rem;
+}
+.main-heading {
+  background: linear-gradient(92deg, #c0b7e8 -1.02%, #8176af 36.25%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-paragrph {
+  margin-block: 3.6rem 6.6rem;
+  max-width: 450px;
+}
+.hero-btn-arrow {
+  gap: 4rem;
+}
+.background-hero {
+  background: url(../images/hero-lines.svg) no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.h1 {
+  max-width: 510px;
+}
+
+/* Contact Section */
+
+.contact-parent {
+  border-radius: 90px;
+  background: radial-gradient(
+    2900.76% 50.13% at 50% 53.89%,
+    rgba(58, 52, 86, 0.95) 0%,
+    #211e2e 100%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+  padding: 4.3rem 0rem 4.3rem 0rem;
+}
+.contact-child-gap {
+  gap: 2.9rem;
+  border-right: 2px solid;
+  border-color: rgba(192, 183, 232, 0.33);
+}
+.border-right {
+  border-right: none;
+}
+.height-65 {
+  height: 65px;
+  padding-right: 8rem !important;
+}
+.contact-child-one {
+  padding-inline: 4rem;
+}
+.mar-blk-9 {
+  margin-bottom: 0.9rem;
+}
+.mob-contact-next {
+  background: url(../images/contact-next.svg) no-repeat;
+  width: 3rem;
+  height: 3rem;
+}
+.mob-contact-pre {
+  background: url(../images/contact-pre.svg) no-repeat;
+  width: 3rem;
+  height: 3rem;
+}
+
+/* introduction section  */
+.introduction-parent {
+  margin-top: 9.4rem;
+  gap: 11.1rem;
+}
+.intro-child-one {
+  gap: 5.6rem;
+}
+
+.marblk-3d {
+  margin-top: 10rem;
+}
+.about-mar-blk {
+  margin-top: 15.1rem;
+}
+.hydra-bottom {
+  margin-top: 4.2rem;
+}
+.lets-get-btn {
+  margin-top: 2.8rem;
+}
+
+/* Why Build section */
+
+.mar-top-111 {
+  margin-top: 11.1rem;
+}
+
+.card-pic-parent {
+  padding-block: 10.7rem 11.14rem;
+}
+
+.card-simulator {
+  padding: 3.2rem 5rem 4rem 5rem;
+  border-radius: 40px;
+  background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
+}
+.simulator {
+  padding-block: 2.1rem 1.8rem;
+  border-bottom: 1px solid rgba(192, 183, 232, 0.33);
+  display: inline-block;
+}
+.card-para-padd {
+  padding-block: 2.1rem 3.5rem;
+  text-align: start;
+}
+.card-pic-gap {
+  gap: 1.2rem;
+}
+.mob-next-card {
+  background: url(../images/next-icon.svg) no-repeat;
+  background-size: cover;
+  border: none !important;
+  border-radius: 0 !important;
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  transform: translateY(-50%);
+  transform: translateX(12px);
+}
+.mob-pre-card {
+  background: url(../images/pre-icon.svg) no-repeat;
+  background-size: cover;
+  border: none !important;
+  border-radius: 0 !important;
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  transform: translateY(-50%);
+  transform: translateX(-12px);
+}
+
+/* Technology section  */
+.technolgy {
+  border-radius: 160px;
+  background: #211e2e;
+
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+  text-align: center;
+  padding-block: 10.8rem 9.6rem;
+  background: url(../images/background-female.svg) no-repeat;
+  position: relative;
+}
+.tech-down {
+  position: absolute;
+  bottom: -53px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.company {
+  margin-top: 9.9rem;
+}
+.mar-top-11 {
+  margin-top: 1.1rem;
+}
+.company-text-center {
+  display: block;
+  text-align: center;
+  float: center;
+}
+/* how we Build section */
+.mar-top-70 {
+  margin-top: 10rem;
+}
+.no-one {
+  border: 12px solid rgba(13, 13, 13, 0.32);
+  border-radius: 50%;
+}
+.numbwer {
+  background: linear-gradient(251deg, #c0b7e8 12.87%, #8176af 89.33%);
+  padding: 4.2rem;
+  border-radius: 50%;
+  width: 176px;
+  height: 176px;
+}
+.number-color {
+  color: #343045;
+}
+.no-text {
+  padding-left: 50px !important;
+}
+.no-text::before {
+  content: "";
+  background: url(../images/number-text-arroe.svg) no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.mar-top-25 {
+  gap: 2.5rem;
+  min-width: 210px;
+  min-height: auto;
+}
+.mar-btm-5 {
+  margin-bottom: 1rem !important;
+}
+.mar-top-124 {
+  margin-top: 12.4rem;
+}
+.back-number {
+  background: url(../images/number-background-line.svg) no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+/* Foam  */
+.foam {
+  border-radius: 100px;
+  background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
+  margin-top: 11.2rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 9rem 10.8rem 8.4rem 10.8rem;
+}
+.join-hydra {
+  padding: 3rem 9.4rem;
+  border-bottom: 1px solid #343045;
+  display: inline-block;
+}
+.mar-blk21-65 {
+  margin-block: 2.1rem 6.5rem;
+}
+input[type="text"] {
+  padding: 2.8rem 4.2rem;
+  border: 2px solid white;
+  border-radius: 4rem;
+  background-color: transparent;
+}
+input::placeholder,
+textarea {
+  color: white !important;
+  resize: none;
+}
+.text-area {
+  color: white;
+  padding: 2.8rem 0rem;
+  border: 2px solid white;
+  border-radius: 4rem;
+  background-color: transparent;
+}
+.foam-gap {
+  gap: 1rem;
+}
+.mar-blk-33 {
+  margin-block: 3.3rem;
+}
+.mar-blk-33-0 {
+  margin-top: 3.3rem;
+}
+.mar-top-51 {
+  margin-top: 5.1rem;
+}
+
+/* Footer  */
+.mar-top-127 {
+  padding-top: 12.7rem;
+}
+.pad-81 {
+  padding-inline: 8.1rem;
+  /* border-right: 5px solid transparent;
+  border-image: linear-gradient(251deg, #c0b7e8, #8176af, #343045) 1; */
+  background-image: url(../images/border.png), url(../images/border.png) ;
+  background-repeat: no-repeat;
+  background-position: left,right;
+}
+.border-left-footer{
+  /* border-left: 5px solid transparent;
+  border-image: linear-gradient(251deg, #c0b7e8, #8176af, #343045) 1; */
+  background-image: url(../images/border.png) ;
+  background-repeat: no-repeat;
+}
+.mar-blk-30 {
+  margin-block: 3rem;
+}
+.link-border {
+  background-color: #c0b7e8;
+  border-radius: 50%;
+}
+.icon-gap {
+  gap: 2rem;
+  margin-block: 3.9rem 4.9rem;
+}
+.footer-hr {
+  margin-block: 7.7rem 4.9rem;
+  border: 1px solid #ffffff;
+}
+.leter-182 {
+  letter-spacing: 1.82px;
+  padding-bottom: 8.9rem;
+}
+.pad-59 {
+  padding-bottom: 5.9rem;
+}
+.background-footer-lines {
+  background:url(../images/footer-desktop-lines.svg) no-repeat;
+  background-position: bottom;
+  background-size: auto;
+}
+.tech-back {
+  background: url(../images/tech-back.png) no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.intro-back {
+  background: url(../images/intro-back.png) no-repeat;
+  background-position: bottom;
+  background-size: auto;
+}
+
+@media screen and (max-width: 991px) {
+  /* Container  */
+
+  .container {
+    padding-inline: 25px;
+  }
+.header-logo-mob{
+  max-width: 70%;
+}
+.btn:focus{
+box-shadow: none;
+}
+  /* Hero Section  */
+
+  .hero-section-parent {
+    padding-block: 5.3rem 5.3rem !important;
+}
+
+  .background-hero {
+    background: url(../images/mobile-hero-lline.svg) no-repeat;
+    background-position: top center;
+    background-size: contain;
+  }
+  .hero-child-one {
+    width: 100% !important;
+    text-align: center;
+  }
+  .h1 {
+    font-size: 2.4rem ;
+    margin-block: 3rem 3.6rem;
+  }
+  .main-heading{
+    font-size: 3.6rem;
+  }
+  .hero-btn-arrow {
+    justify-content: center !important;
+  }
+
+  /* Contact  */
+
+  .contact-child-gap,
+  .location-gap {
+    gap: 1.5rem !important;
+    border-right: none !important;
+    border-color: none !important;
+  }
+  .contact-parent {
+    padding: 2.1rem 0rem 1.8rem 0 !important;
+  }
+  .contact-child-one {
+    width: 100%;
+    height: 6.5rem;
+  }
+
+  .hero-section-parent {
+    padding-block: 14.6rem 5.3rem;
+  }
+  /* Introduction  */
+  .introduction-parent {
+    text-align: center;
+    margin-top: 5.9rem;
+    gap: 5.1rem;
+  }
+  .intro-child-one {
+    gap: 3.6rem;
+}
+ .mar-top-mob-16{
+  margin-top: 1.6rem !important;
+ }
+  .intro-self-normal{
+    align-self: center !important;
+  }
+  .marblk-3d {
+    margin-top: 0rem;
+    width: 100%;
+  }
+  .hydra-bottom {
+    margin-top: 0rem;
+  }
+  /* build section */
+  .build {
+    text-align: center;
+  }
+  .mob-fs-26 {
+    font-size: 2.6rem;
+   
+  }
+  .mob-fs-12 {
+    font-size: 1.2rem;
+    margin-top: 0rem !important;
+  }
+  .mob-w-100 {
+    width: 100%;
+  }
+  .mar-top-111 {
+    margin-top: 5.6rem;
+  }
+  .card-courosel {
+    margin-top: 5.6rem;
+  }
+
+  /* technology */
+  .mob-fs-16 {
+    font-size: 1.2rem;
+  }
+  .mob-fs-24 {
+    font-size: 2.4rem;
+  }
+  .technolgy {
+    border-radius: 60px;
+    background: #211e2e;
+
+    box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+    text-align: center;
+    padding-block: 5.1rem 4.9rem;
+    background: url(../images/background-female-mob.svg) no-repeat;
+    margin-top: 5.6rem;
+  }
+  .company {
+    margin-top: 0rem;
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  .img-fluid-50 {
+    max-width: 50%;
+  }
+  .no-text::before {
+    background: none;
+  }
+  .mar-top-37 {
+    margin-top: 3.7rem;
+  }
+  .mar-top-70 {
+    margin-top: 7rem;
+}
+  .number-pre,
+  .number-next {
+    align-items: end;
+    width: 25%;
+  }
+  .mar-top-88 {
+    margin-top: 8.8rem;
+  }
+  .no-text {
+    text-align: center;
+    padding: 0;
+    padding-left: 0px !important;
+  }
+  .centr-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Foam  */
+  .foam {
+    margin-top: 8.1rem;
+    border-radius: 4rem;
+    padding: 4.5rem 2.2rem 6.5rem 2.2rem;
+  }
+  .join-hydra {
+    font-size: 2.4rem;
+    padding: 2rem 0rem;
+  }
+  .mob-foam {
+    width: 100% !important;
+  }
+  .mar-blk21-65 {
+    font-size: 2.4rem;
+    margin-block: 1.9rem 3.6rem;
+  }
+  .foam-gap {
+    gap: 2.2rem;
+  }
+  .mar-blk-33 {
+    margin-block: 2.2rem;
+  }
+  input[type="text"] {
+    padding: 1.8rem 2.9rem;
+    border: 2px solid white;
+    border-radius: 4rem;
+    background-color: transparent;
+  }
+  /* footer  */
+  .mar-top-127 {
+    margin-top: 0rem;
+  }
+  .mob-blk {
+    margin-block: 5.6rem 2.9rem;
+  }
+  .icon-gap {
+    margin-block: 0rem 4.7rem;
+  }
+  .btn-mob-footer {
+    width: 100%;
+  }
+  .footer-hr {
+    margin-block: 6.1rem 3.8rem;
+  }
+  .mar-blk-27 {
+    margin-block: 2.7rem;
+  }
+  .background-footer-lines {
+    background: url(../images/footer-img-line.png) no-repeat;
+    background-position: top;
+    background-size: contain;
+  }
+  .tech-back {
+    background: none;
+  }
+  .intro-back {
+    background: none;
+  }
+  .mar-top-127 {
+    padding-top: 8.1rem;
+}
+.illustrator-small-btn,.illustrator-large-btn,.illustrator-medium-btn{
+  width: 100%;
+}
+}
