@@ -26,8 +26,8 @@
 .roboto {
   font-family: "Roboto", sans-serif;
 }
-.cursor-pointer{
-    cursor: pointer;
+.cursor-pointer {
+  cursor: pointer;
 }
 
 /* color typography  */
@@ -135,6 +135,7 @@
   border: 1.5px solid;
   border-radius: 50%;
 }
+
 .skill-heading {
   position: absolute;
   top: 50%;
@@ -161,8 +162,8 @@
 }
 .sass {
   position: absolute;
-  top: 68%;
-  right: 0%;
+  top: 65%;
+  right: -3%;
   transform: translateY(-50%);
 }
 .bootstrap {
@@ -175,7 +176,7 @@
 .adobe-photoshop {
   position: absolute;
   bottom: -7%;
-  left: 30%;
+  left: 33%;
   transform: translateY(-50%);
 }
 
@@ -195,14 +196,16 @@
 
 .html {
   position: absolute;
-  top: 25%;
-  left: -3%;
+  top: 20%;
+  left: 0%;
 }
 
 .git {
   position: absolute;
-  top: 4%;
-  left: 12%;
+  top: 0%;
+  left: 16%;
+  width: 180px;
+  height: 180px;
 }
 .footer {
   background-color: #ee414d;
@@ -216,9 +219,9 @@
   margin-top: 3.1rem;
   letter-spacing: 1px;
 }
-.footer-links-image{
-    width: 40px;
-
+.footer-links-image {
+  width: 40px;
+  height: 40px;
 }
 
 /* Media Query For reaponsive  */
@@ -294,27 +297,85 @@
   .skill-heading {
     font-size: 30px;
   }
-  .circle-inner > img {
+ 
+  .illustrator-ai {
+    position: absolute;
+    top: -12px;
+    left: 44%;
     width: 60px;
+    height: 60px;
+}
+  .css {
+    position: absolute;
+    top: 7px;
+    left: 68%;
+    width: 85px;
+    height: 85px;
+  }
+  .figma {
+    position: absolute;
+    top: 41%;
+    right: -6%;
+    transform: translateY(-50%);
+    width: 72px;
+    height: 72px;
+  }
+  .sass{
+    width: 70px;
+    height: 70px;
+  }
+  .bootstrap {
+    position: absolute;
+    bottom: -6%;
+    right: 16%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
   }
   .git {
     position: absolute;
     top: 0%;
-    left: 16%;
-    width: 70px !important;
+    left: 14%;
+    width: 70px;
+    height: 70px;
   }
+  .html {
+    position: absolute;
+    top: 22%;
+    left: -2%;
+    width: 60px;
+    height: 60px ! IMPORTANT;
+}
   .adobe-photoshop {
     position: absolute;
-    bottom: -10%;
-    left: 30%;
+    bottom: -12%;
+    left: 37%;
     transform: translateY(-50%);
+    width: 55px;
+    height: 55px;
   }
+  .tailwind {
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    transform: translateY(-50%);
+    width: 65px;
+    height: 55px;
+  }
+  .github {
+    position: absolute;
+    bottom: 23%;
+    left: -3%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+}
   /* footer  */
   .footer {
     padding-block: 3rem;
     margin-top: 8rem;
-}
-.footer-gap {
+  }
+  .footer-gap {
     gap: 2rem;
-}
+  }
 }
